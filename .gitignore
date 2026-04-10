@@ -1,0 +1,48 @@
+# Environment variables - NEVER commit!
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Database files
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+/tmp/
+.dmux/
+
+# Local test and coverage artifacts
+.coverage
+.pytest_cache/
+
+# OpenCode local workspace files
+.opencode/
